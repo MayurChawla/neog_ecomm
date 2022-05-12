@@ -1,0 +1,71 @@
+.slider .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.slider .arrow {
+    width: 50px;
+    height: 50px;
+    background-color: #fff7f7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    z-index: 2;
+}
+.slider .arrow.arrow-left {
+    left: 10px;
+}
+.slider .arrow.arrow-right {
+    right: 10px;
+}
+
+.slider .container .wrapper {
+    height: 100vh;
+    display: flex;
+    /* transform: translateX(0vw); */
+    transition: all 1.5s ease;
+}
+
+.slider .container .wrapper .slide {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #f5fafd;
+}
+.slider .container .wrapper .slide .imagecontainer{
+    height: 100%;
+    flex: 1;
+}
+.slider .container .wrapper .slide .imagecontainer img{
+    height: 80%;
+    flex: 1;
+}
+.slider .container .wrapper .infocontainer {
+    flex: 1;
+    padding: 50px;
+}
+.slider .container .wrapper .infocontainer .title {
+    font-size: 70px;
+
+}
+.slider .container .wrapper .infocontainer .description {
+    margin: 50px 0;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.slider .container .wrapper .infocontainer .button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.newsletter .container {
+    height: 60vh;
+    background-color: #fcf5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newsletter .container .title {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.newsletter .container .description {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.newsletter .container .inputContainer {
+    width: 60%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+
+.newsletter .container .inputContainer .email{
+    border: none;
+    flex: 8;
+    padding-left: 15px;
+}
+.newsletter .container .inputContainer .subscribe{
+    flex: 1;
+    border: none;
+    background-color: teal;
+    color: white;
+}

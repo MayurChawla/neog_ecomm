@@ -1,0 +1,81 @@
+.footer .container {
+    display: flex;
+    
+}
+.footer .container .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.footer .container .logo{
+    margin: 0;
+}
+.footer .container .left .description{
+    margin: 20px 0;
+}
+.footer .container .left .socialIconContainer{
+    display: flex;
+}
+.footer .container .left .socialIconContainer .socialIcon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.footer .container .left .socialIconContainer .socialIcon.facebook {
+    background-color: #3B5999;
+}
+.footer .container .left .socialIconContainer .instagram{
+    background-color: #E4405F;
+}
+.footer .container .left .socialIconContainer .socialIcon.twitter{
+    background-color: #55ACEE;
+}
+.footer .container .left .socialIconContainer .socialIcon.pinterest{
+    background-color: #E60023;
+}
+.footer .container .center {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer .container .center ul {
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .container .center ul li {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+
+.footer .container .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.footer .container .right .contact {
+    margin : 20px 0;
+}
+
+.footer .container .right .contact .contactItem{
+    margin-bottom : 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .container .right .contact .payments img{
+    width: 60%;
+}

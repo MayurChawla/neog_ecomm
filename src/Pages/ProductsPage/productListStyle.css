@@ -1,0 +1,25 @@
+.productList .container {
+
+}
+.productList .container .title {
+    margin: 20px;
+}
+.productList .container .filterContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.productList .container .filterContainer .filter{
+    margin : 20px;
+}
+.productList .container .filterContainer .filter select{
+    padding: 10px;
+    margin-left: 20px;
+}
+.productList .container .filterContainer .filter select option{
+    padding: 10px;
+}
+
+.productList .container .filterContainer .filter .filterText {
+    font-size: 20px;
+    font-weight: 500;
+}

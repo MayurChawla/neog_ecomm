@@ -1,0 +1,110 @@
+.SingleProductPage .container {
+
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper {
+    padding: 50px;
+    display: flex;
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper .imagecontainer {
+    flex: 1;
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper .imagecontainer img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer {
+    flex: 1;
+    padding: 0 50px;
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .title {
+    margin: 0;
+    font-weight: 300;
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .description {
+}
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .price {
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .filtercontainer {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .filtercontainer .filter {
+    display: flex;
+    align-items: center;
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .filtercontainer .filter .filter-title {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .filtercontainer .filter .filtercolor {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .filtercontainer .filter .filtercolor.Black {
+    background-color: black;
+}
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .filtercontainer .filter .filtercolor.DarkBlue {
+    background-color: darkblue;
+}
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .filtercontainer .filter .filtercolor.Gray {
+    background-color: gray;
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .filtercontainer .filter .size {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .addcontainer {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .addcontainer .amountcontainer{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .addcontainer .amountcontainer .amount {
+    width: 30px;
+    height: 30px;
+    border: 1px solid teal;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .addcontainer .addToCart {
+    padding: 15px;
+    border: 2px solid teal;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.SingleProductPage .container .SingleProductPage-wrapper .infocontainer .addcontainer .addToCart:hover {
+    background-color: rgba(217, 255, 255, 0.5);
+    color: teal;
+}

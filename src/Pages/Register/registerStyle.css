@@ -1,0 +1,52 @@
+.register .register-container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register .register-container .wrapper {
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+}
+
+.register .register-container .wrapper .title,
+.register .register-container .wrapper form,
+.register .register-container .wrapper form input,
+.register .register-container .wrapper form button {
+    margin: 0;
+}
+
+.register .register-container .wrapper .title {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.register .register-container .wrapper form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.register .register-container .wrapper form input {
+    flex: 1;
+    min-width: 40%;
+    margin: 20px 10px 0 0;
+    padding: 10px;
+}
+
+.register .register-container .wrapper form .agreement {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.register .register-container .wrapper form .create {
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
