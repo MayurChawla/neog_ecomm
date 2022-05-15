@@ -5,10 +5,44 @@ import { v4 as uuid } from "uuid";
  * You can add products of your wish with different attributes
  * */
 
+import women1 from "./images/Products2/black women shoes.png";
+import women2 from "./images/Products2/blue sandals.png";
+import chappals2 from "./images/Products2/chappals 2.png";
+import chappals3 from "./images/Products2/chappals 3.png";
+import chappals from "./images/Products2/chappals.png";
+import crocsclogstypesandals from "./images/Products2/crocs clogs typesandals.png";
+import designerloafers from "./images/Products2/designer loafers.png";
+
+
+
 export const products = [
   {
     id: 1,
-    img: "https://m.media-amazon.com/images/I/61CGHv6kmWL._AC_SX466_.jpg"
+    img: women1
+  },
+  {
+    id: 2,
+    img: women2
+  },
+  {
+    id: 3,
+    img: chappals2
+  },
+  {
+    id: 4,
+    img: chappals3
+  },
+  {
+    id: 5,
+    img: chappals
+  },
+  {
+    id: 6,
+    img: crocsclogstypesandals
+  },
+  {
+    id: 7,
+    img: designerloafers
   },
   {
     id: 2,
