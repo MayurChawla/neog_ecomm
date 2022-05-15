@@ -1,13 +1,14 @@
-import "./categoriesStyle.css";
-import {categories} from "../../backend/db/categoryItems";
+import "./brandStyle.css";
+import {brands} from "../../backend/db/brandItems";
 import CategoryItem from "../CategoryItem/CategoryItem";
 
 
-function Categories() {
+function Brand() {
     return(
-        <div className="categories">
+        <div className="brand">
+            <h1>Shop By Brands</h1>
             <div className="container">
-                {categories.map(item=>(
+                {brands.map(item=>(
                     <CategoryItem item={item} key={item.id}/>
                 ))}
             </div>
@@ -15,4 +16,4 @@ function Categories() {
     )
 }
 
-export default Categories;
+export default Brand;

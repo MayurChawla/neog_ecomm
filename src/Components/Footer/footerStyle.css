@@ -8,6 +8,11 @@
     flex-direction: column;
     padding: 20px;
 }
+.footer .container .linkToHome {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
 .footer .container .logo{
     margin: 0;
 }

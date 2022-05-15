@@ -7,8 +7,8 @@ function CategoryItem({item}) {
             <div className="container">
                 <img className="image" src={item.img} />
                 <div className="info">
-                    <h1 className="title">{item.title}</h1>
-                    <button className="button">SHOP NOW!</button>
+                    {/* <h1 className="title">{item.title}</h1> */}
+                    <button className="button">{item.title}</button>
                 </div>
             </div>
         </div>

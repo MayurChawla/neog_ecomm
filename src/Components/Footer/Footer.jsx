@@ -1,14 +1,17 @@
 import { Facebook, Instagram, MailOutline, Payment, Phone, Pinterest, Room, Twitter } from "@material-ui/icons";
 import "./footerStyle.css";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
     return(
         <div className="footer">
             <div className="container">
                 <div className="left">
-                    <h1 className="logo">
-                        Y-LUX
-                    </h1>
+                    <Link to="/" className="linkToHome">
+                        <h1 className="logo">
+                            Y-LUX
+                        </h1>
+                    </Link>
                     <div className="description">
                         Description for Y-LUX.<br></br> This is a With my introduction in first paragraph lets extend the text further. This is the second para of dummy text. It can help developers to know what text is included. Since this text is in simple english it is easy and soothing to eyes and mind for people who work with english language on a daily basis.
                     </div>

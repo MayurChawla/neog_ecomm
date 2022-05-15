@@ -1,7 +1,7 @@
 import Announcements from "../../Components/Announcements/Announcements";
 import Navbar from "../../Components/Navbar/Navbar";
 import Slider from "../../Components/Slider/Slider";
-import Categories from "../../Components/Categories/Categories";
+import Brand from "../../Components/Brand/Brand";
 import Products from "../../Components/Products/Products";
 import NewsLetter from "../../Components/Newsletter/NewsLetter";
 import Footer from "../../Components/Footer/Footer";
@@ -11,7 +11,7 @@ const Home = () => {
         <Announcements />
         <Navbar />
         <Slider />
-        <Categories />
+        <Brand />
         <Products />
         <NewsLetter />
         <Footer />
